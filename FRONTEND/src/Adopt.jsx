@@ -17,6 +17,67 @@ const Adopt = () => {
         Meet your furry friends!
       </h1>
       <div className="AllPets">
+
+        //static value for frontend
+
+            <div className="pets">
+                <img
+                  style={{
+                    marginTop: "30px",
+                    marginLeft: "60px",
+                    borderRadius: "5%",
+                    border:'3px solid grey'
+                  }}
+                  src={Golu}
+                />
+                <div className="petDetails">
+                  <h2 style={{color:'orangered'}}>Golu</h2>
+                </div>
+                <div className="petDetails">
+                  <p>Age: 3</p>
+                  <p><i class="bi bi-gender-male"></i> Male</p>
+                </div>
+                <div className="petDetails">
+                  <p>Pet: Dog</p>
+                  <p>Color: Brown</p>
+                </div>
+                <div className="petDetails">
+                  <p>Breed: Local Breed</p>
+                  <p><i class="bi bi-geo-alt"></i> Imphal</p>
+                </div>
+                <div style={{display:'flex',justifyContent:'center'}}>
+                <button style={{textDecoration:'none', border:'1px solid orange',padding:'10px',color:'white',backgroundColor:'orangered',borderRadius:'10px'}}>Adopt me</button>
+                </div>
+              </div>
+              <div className="pets">
+                <img
+                  style={{
+                    marginTop: "30px",
+                    marginLeft: "60px",
+                    borderRadius: "5%",
+                    border:'3px solid grey'
+                  }}
+                  src={Minnie}
+                />
+                <div className="petDetails">
+                  <h2 style={{color:'orangered'}}>Minnie</h2>
+                </div>
+                <div className="petDetails">
+                  <p>Age: 3</p>
+                  <p><i class="bi bi-gender-male"></i> Male</p>
+                </div>
+                <div className="petDetails">
+                  <p>Pet: Cat</p>
+                  <p>Color: Orange</p>
+                </div>
+                <div className="petDetails">
+                  <p>Breed: Local Breed</p>
+                  <p><i class="bi bi-geo-alt"></i> Imphal</p>
+                </div>
+                <div style={{display:'flex',justifyContent:'center'}}>
+                <button style={{textDecoration:'none', border:'1px solid orange',padding:'10px',color:'white',backgroundColor:'orangered',borderRadius:'10px'}}>Adopt me</button>
+                </div>
+              </div>
         {info.map((post) => {
           return (
               <div className="pets">
