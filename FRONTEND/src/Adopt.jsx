@@ -20,7 +20,7 @@ const Adopt = () => {
       </h1>
       <div className="AllPets">
 
-        //static value for frontend
+{/*         static value for frontend */}
 
             <div className="pets">
                 <img
